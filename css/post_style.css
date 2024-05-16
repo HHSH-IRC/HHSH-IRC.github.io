@@ -1,0 +1,19 @@
+.namecard {
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: #D3D3D3;
+    letter-spacing: 1px;
+    color: #666;
+    transition-duration: 1s;
+    border-radius: 50px 15px;
+    overflow: hidden;
+}
+
+.right {
+    position: absolute;
+    left: 180px;
+}
+
