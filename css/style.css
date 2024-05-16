@@ -87,6 +87,13 @@ b, strong {
 	font-style: normal;
 	font-weight: 700;
 }
+ul, li {
+    line-height: 1.5;
+    font-family: iansui;
+}
+ul {
+    padding-left: 30px;
+}
 h1,
 h2,
 h3,
@@ -103,7 +110,7 @@ h1 {
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 36px;
 	line-height: 30px;
 	letter-spacing: 1px;
 }
@@ -111,13 +118,13 @@ h2 {
 	text-transform: uppercase;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 30px;
 	letter-spacing: 1px;
 }
 @media (max-width:768px) {
 	h2 {
-		font-size: 22px;
+		font-size: 24px;
 	}
 	.changeyan {
 		width: 100%;
@@ -127,13 +134,13 @@ h3 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 37px;
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 0;
 }
 h4 {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	color: #333333;
 }
@@ -162,16 +169,17 @@ section {
 	padding-top: 60px;
 	z-index: 4;
 }
-a,
-a:hover,
-a:active,
-a:focus,
-a:visited,
-a:link {
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited, 
+h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active, 
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link{
     font-family: iansui;
-	color: #151515;
-	text-decoration: none;
+    color: #151515;
+    text-decoration: none;
 }
+
 [class*="col-"] {
 	padding-top: 15px;
 	padding-bottom: 15px;
