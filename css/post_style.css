@@ -12,11 +12,12 @@
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
-    .namecard {
-        width: 100%;
-        margin: 0;
-    }
+.head-img {
+    position: absolute;
+    border-radius: 50% 50%;
+    top: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .right {
@@ -24,3 +25,13 @@
     left: 180px;
 }
 
+@media (max-width: 600px) {
+    .namecard {
+        width: 100%;
+        margin: 0;
+    }
+    .head-img {
+        width: 100px;
+        height: 100px;
+    }
+}
