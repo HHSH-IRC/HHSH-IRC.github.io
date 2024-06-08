@@ -36,5 +36,6 @@
     }
     .right {
         left: 150px;
+        overflow: scroll;
     }
 }
