@@ -34,4 +34,7 @@
         width: 150px;
         height: 150px;
     }
+    .right {
+        left: 150px;
+    }
 }
