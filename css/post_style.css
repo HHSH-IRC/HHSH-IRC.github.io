@@ -12,6 +12,13 @@
     overflow: hidden;
 }
 
+@media (max-width: 600px) {
+    .namecard {
+        width: 100%;
+        margin: 0;
+    }
+}
+
 .right {
     position: absolute;
     left: 180px;
