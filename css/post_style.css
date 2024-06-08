@@ -9,7 +9,7 @@
     color: #666;
     transition-duration: 1s;
     border-radius: 50px 15px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .head-img {
