@@ -99,7 +99,7 @@
         <ul class="sb-menu secondary">
             
             <li><a href="/about" class="animsition-link" title="about">關於我們</a></li>
-            <li><a href="/group" class="animsition-link" title="group">歷屆社員</a></li>
+            <li><a href="/members" class="animsition-link" title="members">歷屆社員</a></li>
         </ul>
     </div>
     
@@ -263,7 +263,7 @@
     <div class="container">
             <div class="copy">
                 <p>
-                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By HHSH_IRC. All Rights Reserved.
+                    &copy; 2024-<span id="current-year"></span>, Content By HHSH_IRC. All Rights Reserved.
                 </p>
                 <p>Theme By <a target="_blank" rel="noopener" href="//go.kieran.top" style="color: #767D84">Kieran</a></p>
             </div>
@@ -279,7 +279,13 @@
             <div class="clearfix"> </div>
         </div>
 </footer>
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('current-year').textContent = currentYear;
+    });
+</script>
+    
 <!-- ============================ END Footer =========================== -->
       <!-- Load our scripts -->
 <!-- Resizable 'on-demand' full-height hero -->
