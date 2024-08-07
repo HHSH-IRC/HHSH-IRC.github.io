@@ -1,0 +1,41 @@
+.namecard {
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: #D3D3D3;
+    letter-spacing: 1px;
+    color: #666;
+    transition-duration: 1s;
+    border-radius: 50px 15px;
+    overflow: auto;
+}
+
+.head-img {
+    position: absolute;
+    border-radius: 50% 50%;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.right {
+    position: absolute;
+    left: 180px;
+}
+
+@media (max-width: 600px) {
+    .namecard {
+        width: 100%;
+        margin: 0;
+    }
+    .head-img {
+        width: 130px;
+        height: 130px;
+    }
+    .right {
+        left: 150px;
+        overflow: auto;
+    }
+}
